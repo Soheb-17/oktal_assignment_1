@@ -6,8 +6,8 @@ module com.example.assignment {
     requires java.sql.rowset;
 
 
-    opens com.example.assignment to javafx.fxml;
-    exports com.example.assignment;
+//    opens com.example.assignment to javafx.fxml;
+//    exports com.example.assignment;
 
     opens com.example.assignment.Model to javafx.fxml;
     exports com.example.assignment.Model;

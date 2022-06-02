@@ -43,7 +43,7 @@ public class ShowLisController implements Initializable {
     private TableColumn<Employee, String> joining_Date;
 
     int increment = 0;
-    int inc_value = 4;
+    int inc_value = 8;
 
     ObservableList<Employee> list = FXCollections.observableArrayList();
 

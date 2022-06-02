@@ -14,7 +14,7 @@
                 <Font size="22.0" />
             </font>
         </Text>
-        <TableView fx:id="EmployeeTable" layoutX="27.0" layoutY="78.0" prefHeight="222.0" prefWidth="549.0">
+        <TableView fx:id="EmployeeTable" layoutX="27.0" layoutY="78.0" prefHeight="246.0" prefWidth="549.0">
             <columns>
                 <TableColumn fx:id="first_Name" prefWidth="122.0" text="First_Name" />
                 <TableColumn fx:id="last_Name" prefWidth="137.0" text="Last_Name" />
@@ -23,7 +23,7 @@
             </columns>
         </TableView>
       <Button fx:id="homePage" layoutX="471.0" layoutY="27.0" mnemonicParsing="false" onAction="#BackToHomePage" text="Home Page" />
-      <Button fx:id="next" layoutX="533.0" layoutY="317.0" mnemonicParsing="false" onAction="#NextData" />
-      <Button fx:id="prev" layoutX="487.0" layoutY="317.0" mnemonicParsing="false" onAction="#PrevData" />
+      <Button fx:id="next" layoutX="533.0" layoutY="340.0" mnemonicParsing="false" onAction="#NextData" />
+      <Button fx:id="prev" layoutX="487.0" layoutY="340.0" mnemonicParsing="false" onAction="#PrevData" />
     </children>
 </AnchorPane>

@@ -1,5 +1,6 @@
 package com.example.assignment.Controller;
 
+import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -11,7 +12,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.util.Objects;
 
-public class HomePageController {
+public class HomePageController{
 
     @FXML
     private Stage stage;
