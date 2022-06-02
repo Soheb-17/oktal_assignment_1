@@ -12,4 +12,7 @@ module com.example.assignment {
     opens com.example.assignment.Model to javafx.fxml;
     exports com.example.assignment.Model;
 
+    opens com.example.assignment.Controller to javafx.fxml;
+    exports com.example.assignment.Controller;
+
 }

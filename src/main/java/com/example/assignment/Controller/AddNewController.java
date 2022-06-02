@@ -1,4 +1,4 @@
-package com.example.assignment;
+package com.example.assignment.Controller;
 
 import com.example.assignment.Model.EmployeeDAO;
 import javafx.event.ActionEvent;
